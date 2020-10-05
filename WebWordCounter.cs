@@ -10,7 +10,7 @@ namespace WebWordCounter
 {
     public class Program
     {
-        public static XXXXXXXXXX Task Main()
+        public static async Task Main()
         {
             string url = null;
             string w = null;
@@ -33,7 +33,7 @@ namespace WebWordCounter
                 
                 string[] words = task1.XXXXXXXXXX;                
                 
-                XXXXXXXXXX Task.Run(() => {
+                await Task.Run(() => {
                     n = GetCountForWord(words, w);
                 });
                 
